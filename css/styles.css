@@ -59,6 +59,13 @@ img {
   display: flex;
 }
 
+.container-footer {
+  width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+}
+
 .header {
    padding-top: 25px;
    padding-bottom: 24px;
@@ -750,6 +757,38 @@ margin: auto;
     
   background-color: var(--accent-color);
   cursor: pointer;
+  }
+
+  .form-footer-subscription {
+ 
+  }
+
+  .subscription {
+    width: 570px;
+    height: 86px;
+    margin-left: 93px;
+    margin-top: 72px;
+  }
+
+  .subscription-title {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+  }
+
+  .placeholder {
+    padding-top: 15px;
+  }
+
+  .subscription-input {
+ 
+  
   }
 
 /* =======================END FOOTER========================= */
