@@ -726,7 +726,7 @@ margin: auto;
   height: 80px;
   display: inline-block;
   margin-left: 70px;
-  margin-top: 72px;
+  margin-top: 75px;
 }
 
 .icon-footer {
@@ -804,9 +804,13 @@ margin: auto;
   background-color: #2196F3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .button-text {
+  margin-left: 24px;
+  
+  
   font-weight: 700px;
   font-size: 16px;
   line-height: 1.87;
@@ -824,8 +828,14 @@ margin: auto;
   display: block;
   height: 24px;
   width: 24px;
+  margin-left: 10px;
+  background-repeat: no-repeat;
+  background-position: center;
   background-image: url("../images/icon/icon-send.svg");
-    
+}
+
+.subscription-button-text {
+  cursor: pointer;
 }
 
 
