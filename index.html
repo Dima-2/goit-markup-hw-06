@@ -58,31 +58,31 @@
             <div class="modal">
               <b class="modal-text">Оставьте свои данные, мы вам перезвоним</b>
               <form class="modal-form">
-              <label class="modal-form-field">Имя
+              <label class="modal-form-field"> <span class="modal-lable-text">Имя</span> 
                 <span class="modal-form-imput-weapper">
                   <input  class="modal-form-imput" name="user-name" type="text">
                   <svg class="modal-icon" width="18px" height="18px">
                   <use href="./images/sprite.svg#icon-person-black"></use></svg>
               </span>
               </label>
-              <label class="modal-form-field">Телефон
+              <label class="modal-form-field"><span class="modal-lable-text">Телефон</span>
                 <span class="modal-form-imput-weapper">
                   <input  class="modal-form-imput" name="user-name" type="text">
                   <svg class="modal-icon" width="18px" height="18px">
                   <use href="./images/sprite.svg#icon-phone-black"></use></svg>
               </span>
             </label>
-              <label class="modal-form-field">Почта<span class="modal-form-imput-weapper">
+              <label class="modal-form-field"><span class="modal-lable-text">Почта</span><span class="modal-form-imput-weapper">
                   <input  class="modal-form-imput" name="user-name" type="text">
                   <svg class="modal-icon" width="18px" height="18px">
                   <use href="./images/sprite.svg#icon-email-black"></use></svg>
               </span>
             </label>
-              <label class="modal-form-field">Коментарий 
+              <label class="modal-form-field"><span class="modal-lable-text">Коментарий</span> 
                 <textarea class="modal-form-massage" name="user-massage" placeholder="Ведите текст"></textarea>
               </label>
-              <input id="user-policy" type="checkbox" name="user-policy" value="accept-policy" class="modal-form-policy">
-              <label for="user-policy" class="modal-form-policy-text">Соглашаюсь с рассылкой и принимаю <a href="">Условия договора</a></label>
+              <input id="user-policy" type="checkbox" name="user-policy" value="accept-policy" class="modal-form-policy visually-hidden ">
+              <label for="user-policy" class="modal-form-policy-text">Соглашаюсь с рассылкой и принимаю <a class="modal-link-policy" href="">Условия договора</a></label>
               <button type="submit" class="modal-form-btn">Отправить</button>
             </form>
 
@@ -345,7 +345,7 @@
           <b class="subscription-title">Подпишитесь на рассылку</b>
           <form class="form-footer-subscription">
             <input  class="subscription-input" id="mail" type="email" name="mail" placeholder="E-mail" >
-              <button class="subscription-button">
+              <button type="submit" class="subscription-button">
               <label for="mail" class="subscription-button-text"><span class="button-text">Подписаться</span></label>
             </button>
           </form>
